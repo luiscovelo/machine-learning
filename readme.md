@@ -16,7 +16,6 @@ Categorias treinadas:
 
 <br>
 Bora para a prática!
--
 
 #
 Atenção para os comandos _pip_ e o _py_, estes podem sofrer alterações conforme o seu sistema operacional, possíveis alternativas:
