@@ -1,3 +1,4 @@
 __pycache__
 files/saved_model/*.sav
 files/urls-complete.csv
+files/img/*
