@@ -10,9 +10,19 @@ Categorias treinadas:
 * politica
 * economia
 
-> Atenção, caso <b>não</b> exista a base de dados completa (*files/urls-complete.csv*) contendo o texto das notícias para treino e teste, na primeira execução de uma classificação a aplicação irá baixar o conteúdo necessário utilizando a planilha (*files/urls.csv*) como base.
+> Atenção, caso <b>não</b> exista a base de dados completa (*files/urls-complete.csv*) contendo o texto das notícias para treino e teste, na primeira execução de uma classificação a aplicação irá baixar o conteúdo necessário utilizando a planilha (*files/urls.csv*) como base. Caso não deseje aguardar a aplicação realizar a captura do conteúdo, faça o download de uma base já populada disponível em [download](https://drive.google.com/file/d/1Y6XbU9yOV6m70xXA2WuGSwSPaes3zoNY/view?usp=sharing "Download da planilha ja populada para classificação.").
 
-> Caso não queira esperar a aplicação baixar todo o conteúdo, baixe uma base de dados completa disponível em [download](https://drive.google.com/file/d/1Y6XbU9yOV6m70xXA2WuGSwSPaes3zoNY/view?usp=sharing "Download da planilha ja populada para classificação.")
+> Observação: Ao executar a classificação de uma notícia, o modelo treinado e testado é armazenado em disco (*files/saved_model*), desta forma ao executar novamente uma classificação a aplicação não precisará treinar e testar a base de dados, portanto conseguimos melhorar a performance em processar o resultado para o usuário.
+
+<br>
+Bora para a prática!
+-
+#
+
+Clone a aplicação em um diretório de sua preferência:
+```
+git clone git@github.com:luiscovelo/machine-learning.git
+```
 
 Como instalar:
 
