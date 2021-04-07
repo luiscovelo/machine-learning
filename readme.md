@@ -118,3 +118,16 @@ Classificando uma notícia com um modelo específico:
     ```python
     py main.py --url https://www.moneytimes.com.br/gestora-brasileira-hashdex-divulga-cronograma-para-seu-etf-de-bitcoin/ --model SVC
     ```
+
+#
+Imagens dos resultados
+#
+
+* Resultado com todos os modelos:
+    ![Resultado usando todos os modelos](/files/img/model-all.jpg)
+
+* Resultado com o melhor modelo:
+    ![Resultado usando todos os modelos](/files/img/model-best.jpg)
+
+* Resultado com modelo específico:
+    ![Resultado usando todos os modelos](/files/img/model-logistic-regression.jpg)
