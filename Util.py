@@ -62,7 +62,8 @@ def list_alg():
         "MLPClassifier"
     }
 
-    os.system('cls')
+    clean_screen()
+    
     print("Algoritmos suportados:")
     for alg in list:
         print("\t- " + alg)
@@ -74,7 +75,8 @@ def print_how_to_use():
 
     url_valid = "https://g1.globo.com/educacao/noticia/2021/04/05/ministro-da-educacao-defende-homeschooling-em-audiencia-e-diz-que-socializacao-da-crianca-pode-ser-na-igreja.ghtml"
 
-    os.system('cls')
+    clean_screen()
+
     print("\nPara utilizar o app de classifição siga as instruções abaixo:\n")
     print("Paramêtro --url: \n\t- deve ser informado a url da notícia a ser classificada.")
     print("Parametro --model:")
@@ -135,3 +137,9 @@ def save_model(pipe, filename):
         joblib.dump(pipe, filename)
     except Exception as err:
         print("Erro ao salvar o modelo.", err)
+
+def clean_screen():
+    if os.name == "nt":
+        os.system("cls")
+    else:
+        os.system("clear")

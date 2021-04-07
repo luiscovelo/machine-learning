@@ -1,4 +1,4 @@
-from Util import get_and_validate_args
+from Util import get_and_validate_args, clean_screen
 from Preprocessor import generate_sheet
 
 import ClassifierLogisticRegression
@@ -17,12 +17,13 @@ import os
 
 
 def main():
+
     args = get_and_validate_args()
     results = []
 
     if generate_sheet():
 
-        os.system('cls')
+        clean_screen()
         print("\nPara a URL informada: " + args.url + "\n")
 
         if args.model == "LogisticRegression":
