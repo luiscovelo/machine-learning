@@ -18,6 +18,12 @@ Categorias treinadas:
 Bora para a prática!
 -
 #
+Atenção para os comandos _pip_ e o _py_, estes podem sofrer alterações conforme o seu sistema operacional, possíveis alternativas:
+* pip
+* pip3
+* python
+* python3
+#
 
 Clone a aplicação em um diretório de sua preferência:
 ```
