@@ -1,0 +1,8 @@
+goose3==3.1.8
+joblib==1.0.1
+nltk==3.5
+numpy==1.20.2
+pandas==1.2.3
+regex==2021.4.4
+scikit-learn==0.24.1
+pathlib==1.0.1
